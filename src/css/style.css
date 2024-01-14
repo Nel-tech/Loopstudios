@@ -1,0 +1,81 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1250px;
+}
+
+@media (max-width: 700px) {
+  .showcase {
+    height: 400px;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .showcase-content img {
+    display: none;
+  }
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  background: url(/public/images/desktop/image-hero.jpg);
+  height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: left;
+  margin-right: right;
+}
+.showcase nav ul {
+  font-size: "Josefin Sans", sans-serif;
+  display: flex;
+  list-style: none;
+}
+.showcase nav li {
+  padding: 15px;
+  font-family: "Alata", sans-serif;
+}
+.showcase nav a {
+  color: white;
+}
+.showcase nav a:hover {
+  text-decoration: underline;
+}
+.showcase .header-content {
+  width: 400px;
+  height: 190px;
+  border: 1px solid white;
+  margin-top: 6rem;
+}
+.showcase .header-content h1 {
+  margin-left: 2rem;
+  padding-top: 1.8rem;
+  color: white;
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 40px;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
+
+.flex-container {
+  margin-top: 15rem;
+}
+
+.virtual-img {
+  width: 600px;
+}
+
+/*# sourceMappingURL=style.css.map */

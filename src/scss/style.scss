@@ -1,0 +1,75 @@
+@import "config.scss";
+@import "utility.scss";
+@import "buttons.scss";
+@import "mobile.scss";
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // font-family: $font-stack;
+}
+
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  background: url(/public/images/desktop/image-hero.jpg);
+  height: 500px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: left;
+    margin-right: right;
+
+    ul {
+      font-size: $sans-family;
+      display: flex;
+      list-style: none;
+    }
+
+    li {
+      padding: 15px;
+      font-family: $alata-family;
+    }
+    a {
+      // color: set-text-color($primary-color);
+      color: white;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
+  .header-content {
+    width: 400px;
+
+    height: 190px;
+    border: 1px solid white;
+    margin-top: 6rem;
+
+    h1 {
+      margin-left: 2rem;
+      padding-top: 1.8rem;
+      color: white;
+      font-family: $sans-family;
+      font-size: 40px;
+      font-weight: $sans-weight;
+      letter-spacing: 4px;
+    }
+  }
+}
+.flex-container {
+  margin-top: 15rem;
+}
+.virtual-img {
+  width: 600px;
+}

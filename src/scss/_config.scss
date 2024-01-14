@@ -1,0 +1,41 @@
+$sans-family: "Josefin Sans", sans-serif;
+$sans-optical-sizing: auto;
+$sans-weight: 300;
+$sans-style: normal;
+
+$alata-family: "Alata", sans-serif;
+$alata-weight: 400;
+$alata-style: normal;
+
+$primay-white: hsl(0, 0%, 100%);
+
+$primay-Black: hsl(0, 0%, 0%);
+
+$primay-Dark-Gray: hsl(0, 0%, 55%);
+
+$primay-Dark-Gray: hsl(0, 0%, 55%);
+
+$Font-size: 15px;
+
+$left: 5rem;
+$right: 5rem;
+// $primary-color: #0e6cff;
+// // $primary-color: #e0ffff;
+// $secondary-color: #ff8700;
+
+// // Set text color based on bg
+
+// @function set-text-color($color) {
+//   @if (lightness($color) > 70) {
+//     @return #333;
+//   } @else {
+//     @return #fff;
+//   }
+// }
+
+// // Set background & text color
+
+// @mixin set-background($color) {
+//   background-color: $color;
+//   color: set-text-color($color);
+// }
