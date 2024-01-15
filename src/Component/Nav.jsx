@@ -6,22 +6,32 @@ function Nav() {
       <nav>
         <img src="/images/logo.svg" alt="" className="logoName" />
 
-        <ul>
+        <ul className="nav-container">
           <li>
-            <a href="#about">About</a>
+            <a href="#about" className="nav-link">
+              About
+            </a>
           </li>
           <li>
-            <a href="#Careers">Careers</a>
+            <a href="#Careers" className="nav-link">
+              Careers
+            </a>
           </li>
           <li>
-            <a href="#events">Events</a>
+            <a href="#events" className="nav-link">
+              Events
+            </a>
           </li>
           <li>
-            <a href="#podcasts">Podcasts</a>
+            <a href="#podcasts" className="nav-link">
+              Podcasts
+            </a>
           </li>
 
           <li>
-            <a href="#support">Supports</a>
+            <a href="#support" className="nav-link">
+              Supports
+            </a>
           </li>
         </ul>
       </nav>
